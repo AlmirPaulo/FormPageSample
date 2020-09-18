@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body {
+    background: #88a;
+    color: #e00;
+} 
+
+header{
+    background: #070;
+}
+
+h2 {
+    font-family: cursive;
+    margin-left: 15px;
+    color: #808;
+}
+
+form {
+    background: #cce;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+b {font-family: cursive; 
+    color: #808;
+    font-size: larger;
+}
+
+a {
+    color: #808;
+    font-weight: bold;
+}
+
+button {
+    margin: 0 0 15px 40px;
+    border-radius: 5px;
+    background-color: #808;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 40px;
+}
+
+section h2 {
+    text-align: center;
+    margin: 10px 0  10px 0 ;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    background: #070;
+}
+
+button {
+    margin: 15px 0  20px 150px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.spaces p{
+    margin-left: 10px;
+}
+
+.spaces input {
+    margin-left: 10px;
+}
+
+.spaces:nth-child(1) {
+    margin-top: 30px;
+}
+
+.spaces:nth-child(6) {
+    margin-left: 10px;
+}
+
+.question p {
+    margin-left: 40px;
+}
+
+.options {
+   margin: 10px 0 0 150px;
+}
+
+.agreement {
+    margin: 15px 0 0 5px;
+}
+
+.checkbox {
+    margin: 0 10px 0 10px;
+}
+
+.sp_footer {
+    margin-top: auto;
+}
+
+
+/* save_page css*/
+
+.msg {
+    background: #cce;
+}
+
+.msg h1,p {
+    margin-left: 15px;
+}
+
+.msg p {
+    font-size: larger;
+}
+
+/*media query*/
+@media (max-width:820px)  {
+
+    body {
+        font-size: 12px;
+    }
+
+    .question p {
+        margin-top: 10px;
+    }
+
+    .options {
+        margin: 10px 0 0 120px;
+    }
+
+    .spaces:nth-child(6) {
+        margin-left: 5px;
+    }
+
+    button {
+        margin-left: 90px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    footer {
+        margin-top: 50vw;
+    }
+
+    .sp_footer {
+        margin-top: 190vw;   
+    }
+}
