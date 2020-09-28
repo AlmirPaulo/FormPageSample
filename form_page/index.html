@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="">
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap" rel="stylesheet"> 
@@ -19,12 +19,30 @@
                 <section>
                     <h2>Sign in and Join Us!</h2>
                     <div class="spaces">
-                        <p><span><strong>First Name:</strong></span><input required name="name1"></p><br>
-                        <p><span><strong>Last Name:</strong></span><input required name="name2"></p><br>
-                        <p><span><strong>Username:</strong></span><input required name="user"></p><br>
-                        <p><span><strong>Email:</strong></span><input required name="email"></p><br>
-                        <p><span><strong>Password:</strong></span><input required name="pass" type="password"></p><br>
-                        <p id="minor_margin"><span><strong>Repeat Password:</strong></span><input id="minor_margin" required name="pass_conf" type="password"></p><br>
+                        <div>                       
+                            <input autocomplete="off" type="text" name="name1" class="input" placeholder="">
+                            <label for="" class="form-label">First Name</label>  
+                        </div>
+                        <div>
+                            <input autocomplete="off" type="text" name="name2" class="input" placeholder="">
+                            <label for="" class="form-label">Last Name</label> 
+                        </div>
+                        <div>
+                            <input autocomplete="off" type="text" name="user" class="input" placeholder="">
+                            <label for="" class="form-label">Username</label> 
+                        </div>
+                        <div>
+                            <input autocomplete="off" type="text" name="email" class="input" placeholder="">
+                            <label for="" class="form-label">Email</label> 
+                        </div>
+                        <div>
+                            <input autocomplete="off" type="password" name="pass" class="input" placeholder="" >
+                            <label for="" class="form-label">Password</label> 
+                        </div>
+                        <div>
+                            <input autocomplete="off" type="password" name="pass-confirm" class="input" placeholder="">
+                            <label for="" class="form-label">Repeat Password</label> 
+                        </div>
                     </div>
                     <div>
                         <div class="question">
