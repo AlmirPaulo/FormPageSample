@@ -1,5 +1,5 @@
 from browser import document as doc
-from browser import alert, bind
+from browser import alert
 
 #'Have Letters' Function
 def letters(tested_string):
