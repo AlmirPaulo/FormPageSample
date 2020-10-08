@@ -1,46 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap" rel="stylesheet"> 
         <meta charset="UTF-8">
+        <title>Super New Thing!</title>
         <meta lang="en">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/brython@3.8.10/brython.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/brython@3.8.10/brython_stdlib.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="brython()">
+    <script type="text/python" src="app.py"></script>
         <header>
             <div>
                 <h2>Super New Thing</h2>
             </div>
         </header>
         <div class="box">
-            <form action="save_page.html">
-                <section>
+		<form action='save_page.html' id= "form">
+               <section>
                     <h2>Sign in and Join Us!</h2>
                     <div class="spaces">
                         <div>                       
-                            <input autocomplete="off" type="text" name="name1" class="input" placeholder="">
+                            <input autocomplete="off" type="text" name="name1" id="name1" class="input" placeholder=""  required>
                             <label for="" class="form-label">First Name</label>  
                         </div>
                         <div>
-                            <input autocomplete="off" type="text" name="name2" class="input" placeholder="">
+                            <input autocomplete="off" type="text" name="name2" id="name2" class="input" placeholder="" required>
                             <label for="" class="form-label">Last Name</label> 
                         </div>
                         <div>
-                            <input autocomplete="off" type="text" name="user" class="input" placeholder="">
+                            <input autocomplete="off" type="text" name="user" id="user" class="input" placeholder="" required>
                             <label for="" class="form-label">Username</label> 
                         </div>
                         <div>
-                            <input autocomplete="off" type="text" name="email" class="input" placeholder="">
+                            <input autocomplete="off" type="text" name="email"  id="email" class="input" placeholder="" required>
                             <label for="" class="form-label">Email</label> 
                         </div>
                         <div>
-                            <input autocomplete="off" type="password" name="pass" class="input" placeholder="" >
+                            <input autocomplete="off" type="password" name="pass" id="pass" class="input" placeholder="" required>
                             <label for="" class="form-label">Password</label> 
                         </div>
                         <div>
-                            <input autocomplete="off" type="password" name="pass-confirm" class="input" placeholder="">
+                            <input autocomplete="off" type="password" name="pass-confirm" id="pass_confirm" class="input" placeholder="" required> 
                             <label for="" class="form-label">Repeat Password</label> 
                         </div>
                     </div>
@@ -59,15 +63,15 @@
                             </div>
                             <div class="agreement">
                                 <input class= 'checkbox' required type="checkbox">I read and agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
-                                <div>
-                                    <button type="submit"> Submit</button>
-                                </div>
+			<div><button type='submit' id='btn'class= 'btn'>Register </button></div>
                             </div>
                         </div>
                     </div>
-                </section>
+               </section>
     </div>  </form>
     </body>
+
+
     <footer >
        Webpage by <a href="#">Almir Paulo</a>
     </footer>

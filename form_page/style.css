@@ -42,13 +42,15 @@ a {
     font-weight: bold;
 }
 
-button {
-    margin: 0 0 15px 40px;
-    border-radius: 5px;
-    background-color: #808;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px 40px;
+.btn {
+    background: #808;
+    width: 90px;
+    height: 35px;
+    border: 3px solid #808;
+    border-radius: 3px; 
+    text-align: center;
+    margin: 0 0 15px 190px;
+    
 }
 
 section h2 {
@@ -61,10 +63,6 @@ footer {
     text-align: center;
     color: #000;
     background: #070;
-}
-
-button {
-    margin: 15px 0  20px 150px;
 }
 
 .box {
@@ -161,8 +159,10 @@ button {
         margin-left: 5px;
     }
 
-    button {
-        margin-left: 90px;
+    .btn {
+        margin-left: 150px;
+        height: 25px;
+        width: 50px;
     }
 
     h2{
